@@ -1,0 +1,140 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #e5fff3;
+  color: #075e54;
+}
+
+header {
+  background-color: #25d366;
+  color: #fff;
+  padding: 1em 0;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2em;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  margin: 0 1em;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+nav ul li a:hover {
+  color: #075e54;
+}
+
+main {
+  padding: 2em;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.landing {
+  background-color: #25d366;
+  color: #fff;
+  text-align: center;
+  padding: 5em 2em;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.landing-content {
+  max-width: 600px;
+  margin: auto;
+}
+
+.landing h2 {
+  font-size: 2.5em;
+  margin-bottom: 0.5em;
+}
+
+.landing p {
+  font-size: 1.2em;
+  margin-bottom: 1.5em;
+}
+
+.landing .btn {
+  background-color: #fff;
+  color: #25d366;
+  padding: 0.5em 1.5em;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.landing .btn:hover {
+  background-color: #075e54;
+  color: #fff;
+}
+
+section {
+  margin-bottom: 2em;
+  background-color: #fff;
+  padding: 1.5em;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+  color: #25d366;
+  font-size: 1.5em;
+  margin-top: 0;
+}
+
+.carousel {
+  display: flex;
+  overflow-x: auto;
+  padding: 1em 0;
+}
+
+.carousel img {
+  max-width: 100%;
+  height: auto;
+  margin-right: 1em;
+  border-radius: 10px;
+  transition: transform 0.3s;
+}
+
+.carousel img:hover {
+  transform: scale(1.05);
+}
+
+footer {
+  text-align: center;
+  padding: 1em 0;
+  background-color: #25d366;
+  color: #fff;
+  box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.1);
+}
+
+footer p {
+  margin: 0;
+}
+
+.Signor {
+  max-width: 100%;
+  height: auto;
+  max-height: 300px;
+  border-radius: 10px;
+  margin-bottom: 1.5em;
+}
